@@ -20,7 +20,7 @@ echo "Instalação VIM como um clone do Visual Studio Code"
 echo "guia de instalação e aula de uso"
 echo "Ideia do canal Cotidiano Hackeado"
 echo "Curta, siga e comparilhe o canal Cotidiano Hackeado"
-echo "Aperte s pars assitir no seu $navegador" 
+echo "Aperte s para assitir no seu $navegador" 
 read assitir
 if [ $assitir = "s" ]; then
 $navegador "https://www.youtube.com/watch?v=hdZMqMeruSQ"
@@ -35,13 +35,12 @@ read install
 if [ $install = "S" ]; then
 echo sudo apt install vim
 fi      
-#if [ $(id -u) != "0" ]; then
-#    echo "You must be the superuser to run this script" >&2
-#    exit 1
-#fi
 cp .vimrc ~/.vimrc
+mkdir -p ~/.vim/pack/git-plugins/start
+mkdir -p ~/.vim/coc.vimrc
+cp coc.vimrc ~/.vim/coc.vimrc
+cp coc-settings.json ~/.vim/coc-settings.json
 cd $HOME
-mkdir -p .vim/pack/git-plugin/start
 cd .vim/pack/git-plugins/start
 echo "Clonando repositorio Github, do Plugin vim-startify"
 git clone https://github.com/mhinz/vim-startify
