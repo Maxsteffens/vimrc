@@ -78,4 +78,4 @@ let g:ale_completion_enabled = 0
 " nmap <F10> :ALEFix<CR>
 " let g:ale_fix_on_save = 1
 
-source ~/.vim/coc.nvimrc
+"source ~/.vim/coc.nvimrc
