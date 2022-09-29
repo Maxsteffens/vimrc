@@ -18,7 +18,7 @@ https://github.com/preservim/nerdcommenter <br>
 https://github.com/mattn/emmet-vim <br>
 https://github.com/dense-analysis/ale <br>
 https://github.com/sheerun/vim-polyglot<br>
-> dietorio diferente https://github.com/neoclide/coc.nvim
+diretorio diferente https://github.com/neoclide/coc.nvim
 
 
 Nerd Fonts: https://github.com/ryanoasis/nerd-fonts#patched-fonts
@@ -33,7 +33,7 @@ Repositório com o .vimrc completo deste guia: https://github.com/fberbert/vimrc
 #mkdir -p ~/.vim/pack/coc/start
 #cd ~/.vim/pack/coc/start
 # intelisense p vin
-# nao clonqaner https://github.com/neoclide/coc.nvim
+# nao clonar https://github.com/neoclide/coc.nvim
 # https://github.com/neoclide/coc.nvim/wiki/Install-coc.nvim#automation-script
 #git clone --branch release https://github.com/neoclide/coc.nvim.git --depth=1
 #vim -c "helptags coc.nvim/doc/ | q"
@@ -44,4 +44,4 @@ Repositório com o .vimrc completo deste guia: https://github.com/fberbert/vimrc
 #:CocInstall coc-snippets coc-git
 #:qa!
 # sudo pip3 install jedi-language-server
-#Kmaiuculo traz help
+#K maiuculo  help
