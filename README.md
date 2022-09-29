@@ -18,14 +18,11 @@ https://github.com/preservim/nerdcommenter <br>
 https://github.com/mattn/emmet-vim <br>
 https://github.com/dense-analysis/ale <br>
 https://github.com/sheerun/vim-polyglot<br>
-diretorio diferente https://github.com/neoclide/coc.nvim
-
-
+```````
+Diretorio diferente https://github.com/neoclide/coc.nvim
 Nerd Fonts: https://github.com/ryanoasis/nerd-fonts#patched-fonts
-
 Repositório com o .vimrc completo deste guia: https://github.com/fberbert/vimrc
-
- falta colocar ainda
+falta colocar ainda
 #sudo pip3 install flake8 pylint
 #sudo npm install eslint
 #eslint --init
@@ -45,3 +42,4 @@ Repositório com o .vimrc completo deste guia: https://github.com/fberbert/vimrc
 #:qa!
 # sudo pip3 install jedi-language-server
 #K maiuculo  help
+```````
